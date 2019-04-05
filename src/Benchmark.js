@@ -74,6 +74,16 @@ export default class Benchmark extends Component {
           <li
             onClick={() =>
               this.setState({
+                contract: "0xE9e3F9cfc1A64DFca53614a0182CFAD56c10624F",
+                owner: "0xE9e3F9cfc1A64DFca53614a0182CFAD56c10624F"
+              })
+            }
+          >
+            Su Squares
+          </li>
+          <li
+            onClick={() =>
+              this.setState({
                 contract: "0x06012c8cf97bead5deae237070f9587f8e7a266d",
                 owner: "0x491fd53e5e0d8b4a5f28d008856060cda5380aaf"
               })
