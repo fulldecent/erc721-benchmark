@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>ERC721 Benchmark</h1>
+          <h1>ERC-721 Benchmark</h1>
           <p>
             <em>
               Note: there might be some errors not handled yet, please keep the
@@ -22,7 +22,7 @@ class App extends Component {
           </p>
           <p>
             The{" "}
-            <a href="https://eips.ethereum.org/EIPS/eip-721">ERC721 standard</a>{" "}
+            <a href="https://eips.ethereum.org/EIPS/eip-721">ERC-721 standard</a>{" "}
             interface doesn't expose any method to get the list of token ids
             owned by a user. A method to query the tokens of a user would result
             would be too expensive to run on chain(
